@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Trigo Magno, Pan Para siempre</title>
+    <meta name="description" content="Venta de productos Panaderia Artesanal con harina organica, pizzas y pasteleria en La Plata, Buenos Aires, Argentina">
+    <meta name="Keywords" content="Panaderia Artesanal, Harina Organica, Masa Madre, Pizzas para Hornear, La Plata, Budines, Cookies">
+    <link rel="stylesheet" href="CSS/EstiloComplementario.css">
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="Grilla">
+        <header id="Header" class="Header">
+            <!--Bloque Header-->
+            <div class="Header__NombreLogo NombreLogo">
+                <a class="Header__Logo" href="Index.html"><img src="Media/Logo.png" alt="LogoTrigoMagno" height="250px"
+                        width="250px"> </a>
+                <h1 class="Header__Nombre TituloPrincipal">Trigo Magno</h1>
+            </div>
+            <nav class="Header__MenuPrincipal MenuPrincipal">
+                <ul>
+                    <li>
+                        <a href="Index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="QuienesSomos.html">Quienes Somos?</a>
+                    </li>
+                    <li>
+                        <a href="Productos.html">Productos</a>
+                        <ul id="SubLista">
+                            <li class="Desplegable"><a href="Productos.html#Salado">Salado</a></li>
+                            <li class="Desplegable"><a href="Productos.html#Dulce">Dulce</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Contacto.HTML">Contactenos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="SeccionPrincipalProd">
+            <div class="Tarjetas">
+                <h2 class="DivisorProducto" id="Salado">Salado</h2>
+                <section class="SeccionProducto">
+                    <div class="Card">
+                        <img class="Card__Img" src="Media/PanMolde.jpg" alt="Pan de molde">
+                        <h3 class="Card__NombreProducto">Pan de Molde</h3>
+                        <button class="Card__Boton btn btn-dark" data-bs-toggle="collapse" href="#collapseExample"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">Ver mas</button>
+                        <div class="Card__Detalles collapse" id="collapseExample">
+                            <ul>
+                                <li>Molde de Pan Blanco Lacteado Artesanal</li>
+                                <li>Hecho a base de harina de trigo organica</li>
+                                <li>Peso aproximado: 1 Kg</li>
+                            </ul>
+                            <H3 class="Card__Precio"> $350 </H3>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <img class="Card__Img" src="Media/MignonManteca.jpg" alt="Mignoncitos de manteca">
+                        <h3 class="Card__NombreProducto">Mignoncitos de manteca</h3>
+                        <button class="Card__Boton btn btn-dark" data-bs-toggle="collapse" href="#collapseExample"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">Ver mas</button>
+                        <div class="Card__Detalles collapse" id="collapseExample">
+                            <ul>
+                                <li>Docena de mignoncitos de manteca Artesanales</li>
+                                <li>Hecho a base de harina de trigo organica</li>
+                                <li>la docena equivale a un poco mas de 1/2 Kg</li>
+                            </ul>
+                            <H3 class="Card__Precio"> $250 </H3>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <img class="Card__Img" src="Media/Pizza.jpg" alt="Pizza de muzzarella">
+                        <h3 class="Card__NombreProducto">Pizza</h3>
+                        <button class="Card__Boton btn btn-dark" data-bs-toggle="collapse" href="#collapseExample"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">Ver mas</button>
+                        <div class="Card__Detalles collapse" id="collapseExample">
+                            <ul>
+                                <li>Pizza grande de 8 porciones</li>
+                                <li>Salsa de Tomate Casera</li>
+                                <li>Con muzzarella, lista para hornear</li>
+                            </ul>
+                            <H3 class="Card__Precio"> $260 </H3>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <img class="Card__Img" src="Media/PanPapa.jpg" alt="Pan de papa hamburguesa">
+                        <h3 class="Card__NombreProducto">Pan de papa para hamburguesa</h3>
+                        <button class="Card__Boton btn btn-dark" data-bs-toggle="collapse" href="#collapseExample"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">Ver mas</button>
+                        <div class="Card__Detalles collapse" id="collapseExample">
+                            <ul>
+                                <li>4 unidades de Pan de papa para hamburguesa</li>
+                                <li>Hecho a base de harina de trigo organica</li>
+                                <li>Peso aproximado de la unidad: 110 gr</li>
+                            </ul>
+                            <H3 class="Card__Precio"> $150 </H3>
+                        </div>
+                    </div>
+                </section>
+                <H2 class="DivisorProducto" id="Dulce">Dulce</H2>
+                <section class="SeccionProducto">
+                    <div class="Card">
+                        <img class="Card__Img" src="Media/Cookies.jpg" alt="Cookies con chips">
+                        <h3 class="Card__NombreProducto">Cookies con chips</h3>
+                        <button class="Card__Boton btn btn-dark" data-bs-toggle="collapse" href="#collapseExample"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">Ver mas</button>
+                        <div class="Card__Detalles collapse" id="collapseExample">
+                            <ul>
+                                <li>10 Cookies de vainilla con Chips de chocolate</li>
+                                <li>Peso aproximado cada 10 Cookies: 300 Grs</li>
+                            </ul>
+                            <H3 class="Card__Precio"> $250 </H3>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <img class="Card__Img" src="Media/Pepas.jpg" alt="Pepas de membrillo">
+                        <h3 class="Card__NombreProducto">Pepas</h3>
+                        <button class="Card__Boton btn btn-dark" data-bs-toggle="collapse" href="#collapseExample"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">Ver mas</button>
+                        <div class="Card__Detalles collapse" id="collapseExample">
+                            <ul>
+                                <li>Pepas de membrillo</li>
+                                <li>Peso aproximado: 250 Grs</li>
+                            </ul>
+                            <H3 class="Card__Precio"> $250 </H3>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <img class="Card__Img" src="Media/Budin.jpg" alt="Budines">
+                        <h3 class="Card__NombreProducto">Budin</h3>
+                        <button class="Card__Boton btn btn-dark" data-bs-toggle="collapse" href="#collapseExample"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">Ver mas</button>
+                        <div class="Card__Detalles collapse" id="collapseExample">
+                            <ul>
+                                <li>Budin de chocolate o banana</li>
+                                <li>Peso aproximado: 800 Grs</li>
+                            </ul>
+                            <H3 class="Card__Precio"> $250 </H3>
+                        </div>
+                    </div>
+                    <div class="Card">
+                        <img class="Card__Img" src="Media/GalletitasManteca.jpg" alt="Galletitas de Manteca">
+                        <h3 class="Card__NombreProducto">Galletitas de Manteca</h3>
+                        <button class="Card__Boton btn btn-dark" data-bs-toggle="collapse" href="#collapseExample"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">Ver mas</button>
+                        <div class="Card__Detalles collapse" id="collapseExample">
+                            <ul>
+                                <li>Galletitas de manteca y vainilla</li>
+                                <li>Peso aproximado: 250 Grs</li>
+                            </ul>
+                            <H3 class="Card__Precio"> $250 </H3>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+            <aside>
+                <img src="Media/LogoContacto.jpg" alt="Contacto" height="50px" width="50px">
+            </aside>
+        </main>
+
+        <footer id="PieDePagina">
+            <h2 class="TituloPiePagina">&copy; Pie De pagina</h2>
+            <br>
+            <ul class="RRSS">
+                <li class="RRSS__Item"><img class="RRSS__img" src="Media/whatsapp.png" alt=""><h3>+54 221 5686282</h3></li>
+                <li class="RRSS__Item"><img class="RRSS__img" src="Media/instagram.png" alt=""><h3>@TrigoMagno</h3></li>
+                <li class="RRSS__Item"><img class="RRSS__img" src="Media/facebook.png" alt=""><h3>/TrigoMagno</h3></li>
+                <li class="RRSS__Item"><img class="RRSS__img" src="Media/twitter.png" alt=""><h3>@TrigoMagno</h3></li>
+                <li class="RRSS__Item"><img class="RRSS__img" src="Media/share.png" alt=""><h3>Recomendanos</h3></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

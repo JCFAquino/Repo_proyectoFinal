@@ -1,0 +1,11 @@
+@mixin EstiloParrafos ($ColorTexto, $AnchoFuente, $Interlineado) {
+    color: $ColorTexto;
+    font-weight: $AnchoFuente;
+    line-height: $Interlineado;
+}
+.Parrafo1{
+    @include EstiloParrafos(black,bold ,25px )
+}
+.Parrafo2{
+    @include EstiloParrafos(black,bold ,35px )
+}
