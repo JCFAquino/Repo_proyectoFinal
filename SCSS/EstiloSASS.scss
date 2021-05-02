@@ -1,4 +1,6 @@
+@import 'Variables';
 @import 'Mixins';
+
 body {
     margin: 0%;
 
@@ -53,7 +55,11 @@ body {
                 display: flex;
                 flex-direction: row;
                 flex-flow: wrap;
+                @media only screen and (max-width: 1024px){
+                    flex-direction: column;
+                } 
             }
+            
         }
 
         &__MenuPrincipal {
@@ -77,6 +83,10 @@ body {
             align-content: space-between;
             flex-flow: column;
             background-color: #F0F0E6;
+            @media only screen and (max-width: 1024px){
+                width: 80vw;
+                margin: 10%;
+            }
             
             &__Img{
                 border-radius: 3%;
@@ -143,5 +153,3 @@ body {
         }    
     }
 }
-
-

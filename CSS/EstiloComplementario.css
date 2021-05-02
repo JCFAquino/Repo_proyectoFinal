@@ -543,6 +543,11 @@ ul li:hover ul {
     .GrillaContacto {
         display: none;
 }
+body #Grilla #SeccionPrincipalProd .SeccionProducto{
+    display: flex;
+    flex-direction: column;
+}
+}
 
 @media only screen and (max-width: 768px) {
     #Grilla {
@@ -646,4 +651,10 @@ ul li:hover ul {
         width: 100%;
         flex-flow: column;
     }
+    body #Grilla #SeccionPrincipalProd .SeccionProducto{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
+

@@ -1,3 +1,7 @@
+@media only screen and (max-width: 1024px) {
+  .SeccionProducto {
+    flex-direction: column; } }
+
 .Parrafo1 {
   color: black;
   font-weight: bold;
@@ -47,6 +51,9 @@ body {
         display: flex;
         flex-direction: row;
         flex-flow: wrap; }
+        @media only screen and (max-width: 1024px) {
+          body #Grilla #SeccionPrincipalProd .SeccionProducto {
+            flex-direction: column; } }
     body #Grilla__MenuPrincipal ul li a {
       color: white; }
     body #Grilla .Card {
@@ -59,6 +66,10 @@ body {
       align-content: space-between;
       flex-flow: column;
       background-color: #F0F0E6; }
+      @media only screen and (max-width: 1024px) {
+        body #Grilla .Card {
+          width: 80vw;
+          margin: 10%; } }
       body #Grilla .Card__Img {
         border-radius: 3%;
         height: 25vh; }
